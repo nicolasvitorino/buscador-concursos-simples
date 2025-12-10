@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Busca Concursos AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Busca Concursos AI</h1>
+    <p class="desc">Busque concursos usando IA — simples e rápido.</p>
+
+    <div class="form">
+      <input id="keywords" type="text" placeholder="Palavras-chave (ex: polícia, prefeitura)" />
+      <input id="state" type="text" placeholder="Estado (ex: SP, MG, RJ)" />
+      <button id="searchBtn">Buscar</button>
+    </div>
+
+    <div id="loading" class="loading" style="display:none;">🔄 Buscando...</div>
+
+    <div id="error" class="error" style="display:none;"></div>
+
+    <div id="results" class="results"></div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
