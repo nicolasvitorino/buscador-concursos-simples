@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from "https://esm.run/@google/generative-ai";
 
-const genAI = new GoogleGenerativeAI("");
+const genAI = new GoogleGenerativeAI("AIzaSyDJImaKT86t2Jgg5jhfsgE0dyUDwqBCosg");
 
 const searchBtn = document.getElementById("searchBtn");
 const loading = document.getElementById("loading");
@@ -96,4 +96,5 @@ function showResults(arr) {
     resultsBox.appendChild(div);
   });
 }
+
 
